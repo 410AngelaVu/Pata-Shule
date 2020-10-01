@@ -19,119 +19,195 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="search.css" />
-<title>Pata Shule</title>
-    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
-      </head>
+    <title>Pata Shule</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png" />
+  </head>
   <body>
-      <header>
-    <nav class="main-nav">
-    <p class="nav-p mb-2 c-white"><img src="./images/logo.png" alt="" class="logo">patashule</p>
-      <div class="div-nav-1">       
-      <ul class="nav-ul">
-        <li class="nav-li d-inline">
-          <i class="fas fa-search fa-jedan d-inline c-white"></i><a class="nav-a t-ac c-white" href="">BOOKS</a>
-        </li>
-        <li class="nav-li d-inline"><i class="far fa-user d-inline c-white"></i><a class="nav-a t-ac c-white" href="">ABOUT</a></li>
-        <li class="nav-li d-inline"><i class="fas fa-rss d-inline c-white"></i><a class="nav-a t-ac c-white" href="">BLOG</a></li>
-        <li class="nav-li d-inline"><i class="fas fa-bars d-inline c-white"></i><a class="nav-a t-ac c-white" href="">MORE..</a></li>
-      </ul>
+    <header>
+      <nav class="main-nav">
+        <p class="nav-p mb-2 c-white">
+          <img src="./images/logo.png" alt="" class="logo" />patashule
+        </p>
+        <div class="div-nav-1">
+          <ul class="nav-ul">
+            <li class="nav-li d-inline">
+              <i class="fas fa-search fa-jedan d-inline c-white"></i
+              ><a class="nav-a t-ac c-white" href="">BOOKS</a>
+            </li>
+            <li class="nav-li d-inline">
+              <i class="far fa-user d-inline c-white"></i
+              ><a class="nav-a t-ac c-white" href="">ABOUT</a>
+            </li>
+            <li class="nav-li d-inline">
+              <i class="fas fa-rss d-inline c-white"></i
+              ><a class="nav-a t-ac c-white" href="">BLOG</a>
+            </li>
+            <li class="nav-li d-inline">
+              <i class="fas fa-bars d-inline c-white"></i
+              ><a class="nav-a t-ac c-white" href="">MORE..</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="div-form">
+      <form>
+        <div class="form-1">
+          <h3 class="t-ac">Filter by name, writer or type</h3>
+          <br />
+          <div class="row">
+            <div class="col-12 col-md-3 div-name">
+              <label>BOOK NAME</label>
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control col-xs-8 col-8"
+                  aria-label="Text input with dropdown button"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-3 div-writer">
+              <label>WRITER</label>
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control col-xs-8 col-8"
+                  aria-label="Text input with dropdown button"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-3 rata">
+              <label for="categories">CATEGORIES</label>
+              <div class="input-group">
+                <select class="custom-select col-xs-8 col-8" id="categories">
+                  <option selected>Choose...</option>
+                  <option value="1">Action and Adventure</option>
+                  <option value="2">Classics</option>
+                  <option value="3">Comic Book or Graphic Novel</option>
+                  <option value="4">Detective and Mystery</option>
+                  <option value="5">Fantasy</option>
+                  <option value="6">Historical Fiction</option>
+                  <option value="7">Horror</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-md-3 btn-div">
+              <button class="">Search</button>&nbsp;&nbsp;
+              <button>Clear filter</button>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
-    </nav>
-</header>
-<div class="div-form">
- <form>
-  <div class="form-1">
-  <h3 class="t-ac">Filter by name, writer or type</h3><br>
-  <div class="row">
-<div class="col-12 col-md-3 div-name">
-   <label>BOOK NAME</label>
-   <div class="input-group">
-      <input type="text" class="form-control col-xs-8 col-8" aria-label="Text input with dropdown button">
-    </div>
-</div>
-<div class="col-12 col-md-3 div-writer">
-   <label>WRITER</label>
-   <div class="input-group">
-      <input type="text" class="form-control col-xs-8 col-8" aria-label="Text input with dropdown button">
-</div>
-</div>
-<div class="col-12 col-md-3 rata">
-  <label for="categories">CATEGORIES</label>
-<div class="input-group">
-<select class="custom-select col-xs-8 col-8" id="categories">
-    <option selected>Choose...</option>
-    <option value="1">Action and Adventure</option>
-    <option value="2">Classics</option>
-    <option value="3">Comic Book or Graphic Novel</option>
-    <option value="4">Detective and Mystery</option>
-    <option value="5">Fantasy</option>
-    <option value="6">Historical Fiction</option>
-    <option value="7">Horror</option>
-  </select>
-</div>
-</div>
- <div class="col-12 col-md-3 btn-div">
-<button class="">Search</button>&nbsp;&nbsp;
-<button>Clear filter</button>
-</div>
-</div>
-</div>
-</form>
-</div>
-<article class="article-book mb-4 c-pointer t-ac">
-  <h4>Search Results</h4>
-  <img src="./images/agata-1.jpeg" alt="" class="agata">
-  <img src="./images/agata-2.jpeg" alt="" class="agata">
-  <img src="./images/agata-3.jpeg" alt="" class="agata">
-  <img src="./images/agata-4.jpeg" alt="" class="agata">
-</article>
-<footer class="first-footer">
-  <div class="footer-div-1">
-    <ul class="footer-ul">
-      <li class="li-footer d-inline"><a class="text-white last-a" href="#">HOME</a></li>
-      <li class="li-footer  d-inline"><a class="text-white last-a" href="#">SEARCH</a></li>
-      <li class="li-footer  d-inline"><a class="text-white last-a" href="#">ABOUT US</a></li>
-      <li class="li-footer  d-inline"><a class="text-white last-a" href="#">ADVERTISE&nbsp;&nbsp;&nbsp; <img src="./images/logo.png" class="umetnuta" alt=""></a></li>
-      <li class="li-footer  d-inline"><a class="text-white last-a" href="#">FACEBOOK</a></li>
-      <li class="li-footer  d-inline"><a class="text-white last-a" href="#">TWITTER</a></li>
-      <li class="li-footer  d-inline"><a class="text-white last-a" href="#">BLOG</a></li>
-      <li class="li-footer  d-inline"><a class="text-white last-a" href="#">GOOGLE&nbsp;<i class="fas fa-plus text-white"></i></a></li>
-    </ul>
-  </div>
- <div class="footer-flex">
-   <form>
-  <label for="exampleInput" class="text-white lead">SUBSCRIBE</label>
-        <div class="input-group-append"> 
-   <input type="email" class="form-control col-7" id="exampleInput" placeholder="you@email.com">
-   <button class="btn btn-5 text-white c-pointer">
-       send
-     </button>
-   </div>
- </form>
-<div class="div-contact">
-     <p class="lead text-white p-con">CONTACT</p>
-     <p class="text-white p-footer">Have a question or a feedback? <br>
-     <a class="footer-a" href="#">giavu@gmail.com</a></p>
-   </div>
-   <div class="div-f-about">
-     <p class="lead text-white p-con">ABOUT</p>
-     <p class="p-footer">PataShule is online bookstore, <br> helping in education. <br> <a class="footer-a" href="#">Learn more...</a></p>
-   </div>
- </div>
-</footer>
-<footer class="second-footer">
-<div class="icons">
-    <a class="last-a-1" href="#"><i class="fab fa-facebook-f text-white"></i></a>
-   <a class="last-a-1" href="#"> <i class="fab fa-twitter text-white"></i></a>
-    <a class="last-a-1" href="#"><i class="fab fa-instagram text-white"></i></a>
-   <a class="last-a-1" href="#"><i class="fab fa-google-play text-white"></i></a>
- <div class="first-span ">
-    <p class="text-white last-p">@ PataShule 2015. All rights reserved. Powerd by <i class="fas fa-gem"></i> <strong>SECONIUM DIGITAL.</strong> Love and awesomeness</p>
-  </div>
-</div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <article class="article-book mb-4 c-pointer t-ac">
+      <h4>Search Results</h4>
+      <img src="./images/agata-1.jpeg" alt="" class="agata" />
+      <img src="./images/agata-2.jpeg" alt="" class="agata" />
+      <img src="./images/agata-3.jpeg" alt="" class="agata" />
+      <img src="./images/agata-4.jpeg" alt="" class="agata" />
+    </article>
+    <footer class="first-footer">
+      <div class="footer-div-1">
+        <ul class="footer-ul">
+          <li class="li-footer d-inline">
+            <a class="text-white last-a" href="#">HOME</a>
+          </li>
+          <li class="li-footer d-inline">
+            <a class="text-white last-a" href="#">SEARCH</a>
+          </li>
+          <li class="li-footer d-inline">
+            <a class="text-white last-a" href="#">ABOUT US</a>
+          </li>
+          <li class="li-footer d-inline">
+            <a class="text-white last-a" href="#"
+              >ADVERTISE&nbsp;&nbsp;&nbsp;
+              <img src="./images/logo.png" class="umetnuta" alt=""
+            /></a>
+          </li>
+          <li class="li-footer d-inline">
+            <a class="text-white last-a" href="#">FACEBOOK</a>
+          </li>
+          <li class="li-footer d-inline">
+            <a class="text-white last-a" href="#">TWITTER</a>
+          </li>
+          <li class="li-footer d-inline">
+            <a class="text-white last-a" href="#">BLOG</a>
+          </li>
+          <li class="li-footer d-inline">
+            <a class="text-white last-a" href="#"
+              >GOOGLE&nbsp;<i class="fas fa-plus text-white"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-flex">
+        <form>
+          <label for="exampleInput" class="text-white lead">SUBSCRIBE</label>
+          <div class="input-group-append">
+            <input
+              type="email"
+              class="form-control col-7"
+              id="exampleInput"
+              placeholder="you@email.com"
+            />
+            <button class="btn btn-5 text-white c-pointer">send</button>
+          </div>
+        </form>
+        <div class="div-contact">
+          <p class="lead text-white p-con">CONTACT</p>
+          <p class="text-white p-footer">
+            Have a question or a feedback? <br />
+            <a class="footer-a" href="#">giavu@gmail.com</a>
+          </p>
+        </div>
+        <div class="div-f-about">
+          <p class="lead text-white p-con">ABOUT</p>
+          <p class="p-footer">
+            PataShule is online bookstore, <br />
+            helping in education. <br />
+            <a class="footer-a" href="#">Learn more...</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <footer class="second-footer">
+      <div class="icons">
+        <a class="last-a-1" href="#"
+          ><i class="fab fa-facebook-f text-white"></i
+        ></a>
+        <a class="last-a-1" href="#">
+          <i class="fab fa-twitter text-white"></i
+        ></a>
+        <a class="last-a-1" href="#"
+          ><i class="fab fa-instagram text-white"></i
+        ></a>
+        <a class="last-a-1" href="#"
+          ><i class="fab fa-google-play text-white"></i
+        ></a>
+        <div class="first-span">
+          <p class="text-white last-p">
+            @ PataShule 2015. All rights reserved. Powerd by
+            <i class="fas fa-gem"></i> <strong>SECONIUM DIGITAL.</strong> Love
+            and awesomeness
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript"></script>
   </body>
+</html>
