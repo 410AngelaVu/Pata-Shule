@@ -183,9 +183,9 @@ input[type="email"] {
 	}
 
 .div-nav-1 {
-		position: absolute;
-	top: 19%;
-	left: 2%;
+position: relative;
+right: 32%;
+top: 72%; 
 }
 		.div-form {
 			height: 450px;

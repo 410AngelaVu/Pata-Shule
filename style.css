@@ -453,8 +453,8 @@ margin: -15px;
 
 }
 .section-btn-2 {
-position: absolute;
-    left: 34%;
+/*position: absolute;
+*/    left: 34%;
     bottom: 12%;
 }
 .big-div {
@@ -578,8 +578,8 @@ top: 50%;
 		margin-left: 20px;
 }
 .section-btn-2 {
-position: absolute;
-    left: 40%;
+/*position: absolute;
+*/    left: 40%;
     bottom: 5%;
 }
 .p-color-1, .p-color {
@@ -633,7 +633,7 @@ top: 50%;
 	padding-top: 5px;
 }
 .section-btn-2 {
-	bottom: 5%;
+	bottom: 30%;
 }
 }
 

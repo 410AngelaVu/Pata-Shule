@@ -110,7 +110,7 @@ h3 {
 }
 
 .feature-tag {
-	margin: 5px 15px;
+padding: 6px 26px;
 } 
 
 .article-btn {
@@ -202,6 +202,10 @@ article {
 
 .btn-5:hover {
 	background-color:#E17E65; 
+}
+
+.card-body {
+	padding-top: 59px;
 }
 
 
