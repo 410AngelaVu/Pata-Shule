@@ -1,5 +1,3 @@
- /* Global variables start */ 
-
 .d-inline {
   display: inline;
 }
@@ -16,8 +14,6 @@
   cursor: pointer;
 }
 
- /* Global variables */
- 
 .main-nav {
   background-color: #e74c3a;
   height: 100px;

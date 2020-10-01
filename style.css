@@ -1,5 +1,3 @@
-/* Global variables start */ 
-
 .bc-pink {
   background-color: #e74c3a;
 }
@@ -31,8 +29,6 @@
 .p-16 {
   padding: 16px;
 }
-
-/* Global variables end */
 
 .main-nav {
   height: 100px;
