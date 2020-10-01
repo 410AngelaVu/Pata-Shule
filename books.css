@@ -1,3 +1,4 @@
+ 
  /* Global variables start */
 .font-15 {
   font-size: 15px;
@@ -119,16 +120,13 @@ h3 {
   width: 100px;
   color: white;
   cursor: pointer;
+  background-color: #e74c3a;
+  border: none;
 }
 
 article {
   margin-top: 30px;
   overflow: hidden;
-}
-
-.article-btn {
-  background-color: #e74c3a;
-  border: none;
 }
 
 .card-link :hover {
@@ -194,7 +192,7 @@ article {
 }
 
 .btn-5 {
-  background-color: #444444;
+  background-color: #444;
   border-radius: unset;
   cursor: pointer;
 }
