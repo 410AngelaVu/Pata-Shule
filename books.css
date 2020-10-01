@@ -1,5 +1,4 @@
  /* Global variables start */
- 
 .font-15 {
   font-size: 15px;
 }
@@ -213,6 +212,7 @@ article {
     font-size: 30px;
     text-align: center;
   }
+
   .nav-a {
     display: none;
   }
@@ -222,17 +222,21 @@ article {
     top: 36%;
     margin-right: 27%;
   }
+
   .car-1 {
     width: 350px;
     height: 380px;
     margin-left: 150px;
   }
+
   h1 {
     padding-top: 0;
   }
+
   .second-article {
     margin-top: 150px;
   }
+
   .third-article,
   .fourth-article,
   .fifth-article,
@@ -241,71 +245,89 @@ article {
   .eighth-article {
     margin-top: 25px;
   }
+
   .desno {
     position: absolute;
     top: 8%;
     left: 30%;
   }
+
   .p-color {
     text-align: left;
     font-size: 18px;
     line-height: 20px;
   }
+
   .p-color-1 {
     font-size: 22px;
     line-height: 25px;
   }
+
   .last-p {
     text-align: left;
   }
+
   .footer-div-1 {
     position: absolute;
     margin-bottom: 20px;
   }
+
   .footer-flex {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     overflow: hidden;
   }
+
   .first-footer {
     overflow: hidden;
   }
+
   form {
     padding-right: 86px;
     margin-bottom: 20px;
   }
+
   .div-contact {
     padding-right: 101px;
   }
+
   .div-f-about {
     display: none;
   }
+
   .p-con {
     font-size: 15px;
     margin-top: 20px;
   }
+
   .p-footer {
     padding-bottom: 10px;
     font-size: 10px;
   }
+
   label[for="exampleInput"] {
     font-size: 15px;
   }
+
   input[type="email"] {
     width: 100px;
     position: relative;
     top: 0;
   }
+
   .footer-ul {
     padding-left: 10px;
   }
+
   .last-a {
     font-size: 10px;
   }
+
   .umetnuta {
     display: none;
   }
+
   .li-footer {
     display: inline;
   }
@@ -315,16 +337,20 @@ article {
   .div-f-about {
     margin-left: 63px;
   }
+
   .footer-ul {
     margin-top: 15px;
     left: 5%;
   }
+
   .icons {
     padding-top: 20px;
   }
+
   .first-span {
     padding-top: 5px;
   }
+
   .footer-flex {
     position: relative;
     left: 5%;
@@ -336,16 +362,20 @@ article {
   .div-f-about {
     margin-left: 63px;
   }
+
   .footer-ul {
     margin-top: 15px;
     left: 27%;
   }
+
   .icons {
     padding-top: 20px;
   }
+
   .first-span {
     padding-top: 5px;
   }
+
   .footer-flex {
     position: relative;
     left: 27%;
