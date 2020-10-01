@@ -20,8 +20,7 @@ Prerequisites - Chrome browser
 
 ## Set up
 
-- \$ cd "folder location"
-- \$ git clone git@github.com:AlanSoto31/New-York-Times.git
+
 
 * Install
 * Usage
