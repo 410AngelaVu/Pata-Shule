@@ -556,6 +556,12 @@ top: 50%;
     margin-top: 20px;
     left: 2%;
 }
+.section-btn-1 {
+	margin-left: 0;
+}
+.section-btn-2 {
+	bottom: 5%;
+}
 }
 
 @media (min-width: 870px) and (max-width: 1024px) {
@@ -625,6 +631,9 @@ top: 50%;
 }
 .first-span {
 	padding-top: 5px;
+}
+.section-btn-2 {
+	bottom: 5%;
 }
 }
 
