@@ -1,4 +1,5 @@
-/* Global variables start */
+/* Global variables start */ 
+
 .bc-pink {
   background-color: #e74c3a;
 }
@@ -30,6 +31,7 @@
 .p-16 {
   padding: 16px;
 }
+
 /* Global variables end */
 
 .main-nav {
@@ -46,7 +48,7 @@
 .nav-p {
   font-size: 35px;
   margin-bottom: 40px;
- }
+}
 
 .nav-li {
   overflow: hidden;
@@ -157,7 +159,7 @@ input[type="search"] {
 .fa-paper-plane,
 .fa-umbrella-beach {
   margin-left: 300px;
- }
+}
 
 .section-2-h4 {
   color: #e74c3a;
@@ -639,4 +641,3 @@ input[type="email"] {
     bottom: 30%;
   }
 }
-

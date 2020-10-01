@@ -1,4 +1,5 @@
-/* Global variables start */
+ /* Global variables start */
+ 
 .font-15 {
   font-size: 15px;
 }
@@ -25,17 +26,17 @@
   background-color: #e74c3a;
   height: 100px;
   width: 100%;
- }
+}
 
 .logo {
   height: 70px;
   margin-bottom: 10px;
   margin-left: 40px;
 }
- 
- .nav-a {
+
+.nav-a {
   text-align: center;
- }
+}
 
 .nav-a :hover {
   text-decoration: none;
@@ -57,7 +58,7 @@
 .fa-bars,
 .fa-jedan {
   padding: 14px;
- }
+}
 
 .car-1 {
   margin-top: 80px;
@@ -173,9 +174,9 @@ article {
 
 .last-p {
   font-size: 12px;
-} 
+}
 
- .first-footer {
+.first-footer {
   margin-top: 30px;
   background-color: black;
   height: 280px;
@@ -207,7 +208,7 @@ article {
   padding-top: 59px;
 }
 
- @media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .nav-p {
     font-size: 30px;
     text-align: center;

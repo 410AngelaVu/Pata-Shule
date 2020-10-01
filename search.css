@@ -1,4 +1,4 @@
-/* Global variables start */
+ /* Global variables start */ 
 
 .d-inline {
   display: inline;
@@ -16,7 +16,8 @@
   cursor: pointer;
 }
 
-/* Global variables */
+ /* Global variables */
+ 
 .main-nav {
   background-color: #e74c3a;
   height: 100px;
@@ -27,7 +28,7 @@
   height: 70px;
   margin-bottom: 10px;
   margin-left: 40px;
- }
+}
 
 .nav-p {
   font-size: 35px;
@@ -57,7 +58,7 @@
 
 .form-1 {
   width: 104%;
- }
+}
 
 form {
   height: 250px;
@@ -71,7 +72,7 @@ form {
   padding-right: 0;
 }
 
- .div-form {
+.div-form {
   background-color: #eeeeee;
   margin-top: 50px;
   overflow: hidden;
@@ -90,7 +91,7 @@ select {
   position: relative;
   right: 7%;
   padding-top: 36px;
- }
+}
 
 h3 {
   margin-right: 15%;
