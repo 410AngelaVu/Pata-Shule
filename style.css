@@ -376,6 +376,7 @@ input[type="email"] {
   .first-footer {
     overflow: hidden;
   }
+
   form {
     padding-right: 86px;
     margin-bottom: 20px;
@@ -437,6 +438,7 @@ input[type="email"] {
     margin-left: 50%;
   }
 }
+
 @media (min-width: 553px) and (max-width: 768px) {
   .main-nav {
     height: 70px;
@@ -460,7 +462,7 @@ input[type="email"] {
     position: absolute;
     margin-top: -53px;
     left: 45%;
-  } 
+  }
 
   .div-section-1 {
     width: 75%;
@@ -557,7 +559,6 @@ input[type="email"] {
   }
 
   input[type="email"] {
-    /*width: 350px;*/
     position: relative;
     top: 0;
     right: 0;
@@ -579,6 +580,7 @@ input[type="email"] {
     display: inline;
   }
 }
+
 @media (min-width: 769px) and (max-width: 869px) {
   .div-nav-1 {
     position: absolute;

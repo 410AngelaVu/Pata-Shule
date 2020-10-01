@@ -1,6 +1,6 @@
 # Pata Shule
 
-![screenshot](/images/pata-shule.png)
+![screenshot](/Pictures/pata-shule.png)
 
 This is the first Capstone project at Microverse. Original project is about directories of schools in Kenya. I implemented original design with my ideas and details. The site is about the online book store.
 Designed by Mathew Njuguna
