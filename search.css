@@ -59,7 +59,6 @@
 form {
   height: 250px;
   padding-top: 20px;
-  height: 200px;
   margin-left: 20px;
   padding-left: 10px;
 }
@@ -69,7 +68,7 @@ form {
 }
 
 .div-form {
-  background-color: #eeeeee;
+  background-color: #eee;
   margin-top: 50px;
   overflow: hidden;
 }
@@ -102,6 +101,7 @@ h3 {
 .agata {
   margin: 30px 50px;
 }
+
 .first-footer {
   background-color: black;
   height: 280px;
@@ -121,7 +121,7 @@ h3 {
 }
 
 .btn-5 {
-  background-color: #444444;
+  background-color: #444;
   border-radius: unset;
 }
 
@@ -174,6 +174,7 @@ input[type="email"] {
     font-size: 30px;
     text-align: center;
   }
+
   .nav-a {
     display: none;
   }
@@ -183,11 +184,13 @@ input[type="email"] {
     right: 32%;
     top: 72%;
   }
+
   .div-form {
     height: 450px;
     overflow: hidden;
     margin-top: 0;
   }
+
   h3 {
     text-align: left;
     font-size: 15px;
@@ -195,77 +198,92 @@ input[type="email"] {
 
   form {
     margin-left: 150px;
-
     height: 400px;
+    padding-right: 16px;
+    margin-bottom: 20px;
   }
+
   .form-1 {
     margin-left: -112px;
     width: 146%;
   }
+
   option {
     font-size: 15px;
   }
+
   .btn-div {
     margin-left: 25%;
     padding: 10px 10px;
   }
+
   .p-color {
     text-align: left;
     font-size: 18px;
     line-height: 20px;
   }
+
   .p-color-1 {
     font-size: 22px;
     line-height: 25px;
   }
+
   .last-p {
     text-align: left;
   }
+
   .footer-div-1 {
     position: absolute;
     margin-bottom: 20px;
   }
+
   .footer-flex {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     overflow: hidden;
   }
+
   .first-footer {
     overflow: hidden;
   }
-  form {
-    padding-right: 16px;
-    margin-bottom: 20px;
-  }
+
   .div-f-about {
     display: none;
   }
+
   .p-con {
     font-size: 15px;
     margin-top: 20px;
   }
+
   .p-footer {
     padding-bottom: 10px;
     font-size: 10px;
   }
+
   label[for="exampleInput"] {
     font-size: 15px;
   }
+
   input[type="email"] {
     width: 100px;
     position: relative;
     top: 0;
   }
+
   .footer-ul {
     padding-left: 10px;
   }
+
   .last-a {
     font-size: 10px;
   }
+
   .umetnuta {
     display: none;
   }
+
   .li-footer {
     display: inline;
   }
@@ -277,29 +295,36 @@ input[type="email"] {
     right: 2%;
     top: 7%;
   }
+
   .btn-div {
-    border: 1px solid #eeeeee;
+    border: 1px solid #eee;
     right: 7%;
   }
+
   .p-color-1,
   .p-color {
     margin: 15px 20px;
   }
+
   .footer-flex {
     position: relative;
     left: 1%;
     top: 50%;
   }
+
   .div-f-about {
     margin-left: 54px;
   }
+
   .footer-ul {
     margin-top: 15px;
     left: 1%;
   }
+
   .icons {
     padding-top: 20px;
   }
+
   .first-span {
     padding-top: 5px;
   }
@@ -311,25 +336,31 @@ input[type="email"] {
     right: 2%;
     top: 7%;
   }
+
   .p-color-1,
   .p-color {
     margin: 15px 20px;
   }
+
   .footer-flex {
     position: relative;
     left: 20%;
     top: 50%;
   }
+
   .div-f-about {
     margin-left: 63px;
   }
+
   .footer-ul {
     margin-top: 15px;
     left: 20%;
   }
+
   .icons {
     padding-top: 20px;
   }
+
   .first-span {
     padding-top: 5px;
   }
@@ -341,24 +372,30 @@ input[type="email"] {
     right: 2%;
     top: 7%;
   }
+
   .footer-flex {
     position: relative;
     left: 26%;
     top: 50%;
   }
+
   form {
     margin-top: -22px;
   }
+
   .div-f-about {
     margin-left: 63px;
   }
+
   .footer-ul {
     margin-top: 15px;
     left: 26%;
   }
+
   .icons {
     padding-top: 20px;
   }
+
   .first-span {
     padding-top: 5px;
   }

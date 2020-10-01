@@ -94,12 +94,13 @@ input[type="search"] {
 
 .section-btn-1 {
   border: none;
-  padding-top: 6px;
   height: 35px;
   font-size: 15px;
-  width: 80px;
-  padding-left: 7px;
   cursor: pointer;
+  padding-bottom: 7px;
+  padding-left: 17px;
+  padding-top: 10px;
+  padding-right: 15px;
 }
 
 .section-btn-1:hover {
@@ -230,7 +231,7 @@ input[type="search"] {
 }
 
 .btn-5 {
-  background-color: #444444;
+  background-color: #444;
   border-radius: unset;
 }
 
@@ -282,10 +283,12 @@ input[type="email"] {
   .logo {
     height: 55px;
   }
+
   .nav-p {
     font-size: 30px;
     text-align: center;
   }
+
   .nav-a {
     display: none;
   }
@@ -295,22 +298,25 @@ input[type="email"] {
     justify-content: center;
     align-items: center;
   }
+
   .div-section-1 {
     width: 100%;
     height: 130px;
     left: 0;
   }
+
   .input-p {
     font-size: 20px;
     margin-top: 20px;
   }
+
   input[type="search"] {
     width: 98%;
     left: 0;
-    top: 0;
     position: relative;
     top: 20%;
   }
+
   .section-btn-1 {
     width: 98%;
     position: absolute;
@@ -319,9 +325,11 @@ input[type="email"] {
     padding-left: 45%;
     bottom: 10%;
   }
+
   .left-top {
     margin-bottom: 20px;
   }
+
   .section-1 {
     height: 420px;
   }
@@ -332,32 +340,39 @@ input[type="email"] {
     width: 100px;
     left: 19%;
   }
+
   .sunce {
     height: 150px;
     width: 150px;
   }
+
   .p-color {
     text-align: left;
     font-size: 18px;
     line-height: 20px;
   }
+
   .p-color-1 {
     font-size: 22px;
     line-height: 25px;
   }
+
   .last-p {
     text-align: left;
   }
+
   .footer-div-1 {
     position: absolute;
     margin-bottom: 20px;
   }
+
   .footer-flex {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     overflow: hidden;
   }
+
   .first-footer {
     overflow: hidden;
   }
@@ -365,44 +380,56 @@ input[type="email"] {
     padding-right: 86px;
     margin-bottom: 20px;
   }
+
   .div-contact {
     padding-right: 54px;
   }
+
   .div-f-about {
     display: none;
   }
+
   .p-con {
     font-size: 15px;
     margin-top: 20px;
   }
+
   .p-footer {
     padding-bottom: 10px;
     font-size: 10px;
   }
+
   label[for="exampleInput"] {
     font-size: 15px;
   }
+
   input[type="email"] {
     width: 100px;
     position: relative;
     top: 0;
   }
+
   .footer-ul {
     padding-left: 10px;
   }
+
   .last-a {
     font-size: 10px;
   }
+
   .umetnuta {
     display: none;
   }
+
   .li-footer {
     display: inline;
   }
+
   .big-div {
     display: flex;
     flex-direction: column;
   }
+
   .fa-search-location,
   .fa-compass,
   .fa-paper-plane,
@@ -415,124 +442,141 @@ input[type="email"] {
     height: 70px;
     overflow: hidden;
   }
+
   .logo {
     height: 60px;
   }
-  .first-footer {
-    overflow: hidden;
-  }
+
   .nav-a {
     display: none;
   }
+
   .nav-li {
     padding-right: 8px;
   }
+
   .div-nav-1 {
     width: 275px;
     position: absolute;
     margin-top: -53px;
     left: 45%;
-  }
+  } 
+
   .div-section-1 {
     width: 75%;
     left: 10%;
     height: 100px;
   }
+
   .section-btn-1 {
     margin-left: 14px;
   }
+
   .input-p {
     margin: -15px;
     padding: 17px;
   }
+
   .left-top {
     margin-top: 22px;
     height: 30px;
     margin-left: 15px;
   }
+
   .section-btn-2 {
-    /*position: absolute;
-*/
     left: 34%;
     bottom: 12%;
   }
+
   .big-div {
     display: flex;
     flex-direction: column;
   }
+
   .fa-search-location,
   .fa-compass,
   .fa-paper-plane,
   .fa-umbrella-beach {
     margin-left: 50%;
   }
+
   .p-color-1 {
     margin-top: 6px;
     margin-left: 6px;
     line-height: 30px;
   }
+
   .p-color {
     margin-left: 6px;
   }
+
   .sunce {
     width: 234px;
   }
+
   .footer-div-1 {
     position: absolute;
     margin-bottom: 20px;
   }
+
   .footer-flex {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     overflow: hidden;
   }
+
   .first-footer {
     overflow: hidden;
   }
+
   form {
-    /*padding-right: 20px;*/
     margin-bottom: 20px;
-    /*margin-right: 10px;		*/
   }
+
   .div-contact {
     margin-right: 10%;
   }
+
   .div-f-about {
     display: none;
   }
+
   .p-con {
     font-size: 20px;
     margin-top: 20px;
   }
+
   .p-footer {
     padding-bottom: 10px;
     font-size: 15px;
   }
+
   label[for="exampleInput"] {
     font-size: 20px;
   }
+
   input[type="email"] {
     /*width: 350px;*/
     position: relative;
     top: 0;
     right: 0;
   }
+
   .footer-ul {
     padding-left: 10px;
   }
+
   .last-a {
     font-size: 10px;
   }
+
   .umetnuta {
     height: 30px;
   }
+
   .li-footer {
     display: inline;
-  }
-  .big-div {
-    display: flex;
-    flex-direction: column;
   }
 }
 @media (min-width: 769px) and (max-width: 869px) {
@@ -541,22 +585,27 @@ input[type="email"] {
     right: 2%;
     margin-top: -53px;
   }
+
   .footer-flex {
     position: relative;
     left: 2%;
     top: 50%;
   }
+
   .div-f-about {
     margin-left: 63px;
   }
+
   .footer-ul {
     position: absolute;
     margin-top: 20px;
     left: 2%;
   }
+
   .section-btn-1 {
     margin-left: 0;
   }
+
   .section-btn-2 {
     bottom: 5%;
   }
@@ -568,35 +617,41 @@ input[type="email"] {
     right: 2%;
     margin-top: -53px;
   }
+
   .div-section-1 {
     width: 70%;
     left: 15%;
   }
+
   .section-btn-1 {
     margin-left: 20px;
   }
+
   .section-btn-2 {
-    /*position: absolute;
-*/
     left: 40%;
     bottom: 5%;
   }
+
   .p-color-1,
   .p-color {
     margin: 15px 20px;
   }
+
   .btn-4 {
     position: absolute;
     margin-top: -25px;
   }
+
   .footer-flex {
     position: relative;
     left: 13%;
     top: 50%;
   }
+
   .div-f-about {
     margin-left: 63px;
   }
+
   .footer-ul {
     margin-top: 15px;
   }
@@ -608,31 +663,43 @@ input[type="email"] {
     right: 2%;
     margin-top: -53px;
   }
+
   .section-btn-1 {
-    margin-left: 30px;
+    margin-left: 37px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-right: 15px;
   }
+
   .p-color-1,
   .p-color {
     margin: 15px 20px;
   }
+
   .footer-flex {
     position: relative;
     left: 20%;
     top: 50%;
   }
+
   .div-f-about {
     margin-left: 63px;
   }
+
   .footer-ul {
     margin-top: 15px;
     left: 20%;
   }
+
   .icons {
     padding-top: 20px;
   }
+
   .first-span {
     padding-top: 5px;
   }
+
   .section-btn-2 {
     bottom: 30%;
   }
