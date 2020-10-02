@@ -214,6 +214,7 @@ article {
   .love {
     margin-top: 418px;
   }
+
   .logo {
     height: 55px;
   }
@@ -457,16 +458,6 @@ article {
     position: relative;
     left: 2%;
     top: 50%;
-  }
-
-  .div-f-about {
-    margin-left: 63px;
-  }
-
-  .footer-ul {
-    position: absolute;
-    margin-top: 20px;
-    left: 2%;
   }
 
   .li-footer {

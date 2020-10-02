@@ -37,6 +37,7 @@
 .pos-rel {
   position: relative;
 }
+
 .d-flex {
   display: flex;
 }
@@ -44,6 +45,7 @@
 .o-hidden {
   overflow: hidden;
 }
+
 .h-250 {
   height: 250px;
 }
@@ -64,10 +66,6 @@
   margin-bottom: 40px;
   padding-top: 10px;
 }
-
-/*.nav-li {
-  overflow: hidden;
-}*/
 
 .nav-a:hover {
   text-decoration: none;
@@ -180,35 +178,26 @@ input[type="search"] {
 }
 
 .div-section-flex {
-  /*display: flex;*/
   flex-direction: column;
 }
 
 .first-div {
   background-color: #e17e65;
-  /*height: 250px;*/
   margin: 0;
 }
 
 .second-div {
   background-color: #98a4a5;
-  /*  height: 250px;*/
 }
 
 .third-div {
   background-color: #509bd7;
-  /*  height: 250px;*/
-  /*  overflow: hidden;*/
 }
 
 .sunce {
   width: 260px;
   height: 200px;
 }
-
-/*.btn-3 {
-  color: #e17e65;
-}*/
 
 .btn-3:hover {
   background-color: #3f3f3f;
@@ -231,7 +220,6 @@ input[type="search"] {
 .first-footer {
   background-color: black;
   height: 280px;
-  /*  overflow: hidden;*/
 }
 
 .footer-ul {
@@ -259,10 +247,6 @@ input[type="email"] {
   border-radius: unset;
 }
 
-/*.div-conc {
-  color: #e17e65;
-}*/
-
 .p-footer {
   font-size: 14px;
   line-height: 20px;
@@ -279,7 +263,6 @@ input[type="email"] {
 .second-footer {
   height: 70px;
   background-color: #1f1f1f;
-  /*  overflow: hidden;*/
 }
 
 .first-span {
@@ -306,7 +289,6 @@ input[type="email"] {
   }
 
   .div-nav-1 {
-    /* display: flex;*/
     justify-content: center;
     align-items: center;
     margin-top: -10px;
@@ -383,7 +365,6 @@ input[type="email"] {
   }
 
   .footer-flex {
-    /*    display: flex;*/
     flex-direction: column;
     align-items: flex-end;
     overflow: hidden;
@@ -507,7 +488,7 @@ input[type="email"] {
   }
 
   .section-btn-2 {
-    margin-top: 144px;
+    margin-top: 124px;
     margin-left: -74px;
   }
 
@@ -627,13 +608,8 @@ input[type="email"] {
     left: 2%;
   }
 
-  .section-btn-1 {
-    margin-left: 0;
-    padding-right: 9px;
-  }
-
   .section-btn-2 {
-    margin-bottom: -202px;
+    margin-bottom: -192px;
     margin-left: -45px;
   }
 
@@ -742,9 +718,5 @@ input[type="email"] {
 
   .first-span {
     padding-top: 5px;
-  }
-
-  .section-btn-2 {
-    bottom: 30%;
   }
 }
