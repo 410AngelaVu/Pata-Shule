@@ -4,8 +4,7 @@
 
 This is the first Capstone project at Microverse. Original project is about directories of schools in Kenya. I implemented original design with my ideas and details. The site is about the online book store.
 Designed by Mathew Njuguna
-http://mathewnjuguna.com/
-
+https://www.behance.net/gallery/25563385/PatashuleKE
 
 ## Built With
 
@@ -20,18 +19,15 @@ Prerequisites - Chrome browser
 
 ## Set up
 
+- Install
+- Usage
+- Run tests - HTML validator, w3 validation
+- Deployment
 
-
-* Install
-* Usage
-* Run tests - HTML validator, w3 validation
-* Deployment
-
-Authors
+##Author
 
 👤 Andjela Vukadinovic
 
 - Github: 410AngelaVu
 - Twitter: @andjelavukadin7
 - Linkedin: linkedin
-

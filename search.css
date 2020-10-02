@@ -30,6 +30,7 @@
   font-size: 35px;
   margin-bottom: 40px;
   float: left;
+  padding-top: 10px;
 }
 
 .fa-user,
@@ -88,8 +89,8 @@ select {
   padding-top: 36px;
 }
 
-h3 {
-  margin-right: 15%;
+h1 {
+  margin-right: 10%;
   color: #92969a;
   font-weight: bold;
 }
@@ -180,9 +181,8 @@ input[type="email"] {
   }
 
   .div-nav-1 {
-    position: relative;
-    right: 32%;
-    top: 72%;
+     margin-top: 40px;
+    float: right;
   }
 
   .div-form {
@@ -191,7 +191,7 @@ input[type="email"] {
     margin-top: 0;
   }
 
-  h3 {
+  h1 {
     text-align: left;
     font-size: 15px;
   }

@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.d-flex {
+  display: flex;
+}
+
 .main-nav {
   background-color: #e74c3a;
   height: 100px;
@@ -47,6 +51,7 @@
 .nav-p {
   font-size: 35px;
   margin-bottom: 40px;
+  padding-top: 10px;
 }
 
 .fa-user,
@@ -138,10 +143,6 @@ article {
   color: #e17e65;
 }
 
-.footer-flex {
-  display: flex;
-}
-
 .p-footer {
   font-size: 14px;
   line-height: 20px;
@@ -201,6 +202,110 @@ article {
   padding-top: 59px;
 }
 
+.card {
+  margin-top: 25px;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .nav-a {
+    display: none;
+  }
+
+  .love {
+    margin-top: 418px;
+  }
+  .logo {
+    height: 55px;
+  }
+
+  .nav-p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .div-nav-1 {
+    margin-top: -26px;
+    margin-right: 59px;
+  }
+
+  .car-1 {
+    width: 250px;
+    margin: auto;
+  }
+
+  .footer-div-1 {
+    overflow: hidden;
+    padding-top: 35px;
+    margin-left: 10px;
+  }
+
+  .footer-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+
+  .first-footer {
+    overflow: hidden;
+  }
+
+  .second-footer {
+    overflow: hidden;
+  }
+
+  .div-f-about {
+    display: none;
+  }
+
+  .p-con {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .p-footer {
+    padding-bottom: 10px;
+    font-size: 10px;
+    margin-right: 18px;
+  }
+
+  label[for="exampleInput"] {
+    font-size: 15px;
+  }
+
+  input[type="email"] {
+    width: 100px;
+    position: relative;
+    top: 0;
+  }
+
+  .footer-ul {
+    padding-left: 10px;
+  }
+
+  .last-a {
+    font-size: 10px;
+  }
+
+  .umetnuta {
+    display: none;
+  }
+
+  .li-footer {
+    list-style: none;
+  }
+
+  .third-article,
+  .fourth-article,
+  .fifth-article,
+  .sixth-article,
+  .seventh-article,
+  .eighth-article {
+    margin: 35px 87px;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 768px) {
   .nav-p {
     font-size: 30px;
@@ -231,15 +336,6 @@ article {
     margin-top: 150px;
   }
 
-  .third-article,
-  .fourth-article,
-  .fifth-article,
-  .sixth-article,
-  .seventh-article,
-  .eighth-article {
-    margin-top: 25px;
-  }
-
   .desno {
     position: absolute;
     top: 8%;
@@ -264,6 +360,7 @@ article {
   .footer-div-1 {
     position: absolute;
     margin-bottom: 20px;
+    padding-top: 25px;
   }
 
   .footer-flex {
@@ -278,12 +375,12 @@ article {
   }
 
   form {
-    padding-right: 86px;
     margin-bottom: 20px;
+    padding-top: 25px;
   }
 
   .div-contact {
-    padding-right: 101px;
+    margin-right: 10%;
   }
 
   .div-f-about {
@@ -291,23 +388,23 @@ article {
   }
 
   .p-con {
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 20px;
   }
 
   .p-footer {
     padding-bottom: 10px;
-    font-size: 10px;
-  }
-
-  label[for="exampleInput"] {
     font-size: 15px;
   }
 
+  label[for="exampleInput"] {
+    font-size: 20px;
+  }
+
   input[type="email"] {
-    width: 100px;
     position: relative;
     top: 0;
+    right: 0;
   }
 
   .footer-ul {
@@ -319,11 +416,20 @@ article {
   }
 
   .umetnuta {
-    display: none;
+    height: 30px;
   }
 
   .li-footer {
     display: inline;
+  }
+
+  .third-article,
+  .fourth-article,
+  .fifth-article,
+  .sixth-article,
+  .seventh-article,
+  .eighth-article {
+    margin: 35px 87px;
   }
 }
 
@@ -335,6 +441,7 @@ article {
   .footer-ul {
     margin-top: 15px;
     left: 5%;
+    display: inline;
   }
 
   .icons {
@@ -346,9 +453,33 @@ article {
   }
 
   .footer-flex {
+    display: flex;
     position: relative;
-    left: 5%;
+    left: 2%;
     top: 50%;
+  }
+
+  .div-f-about {
+    margin-left: 63px;
+  }
+
+  .footer-ul {
+    position: absolute;
+    margin-top: 20px;
+    left: 2%;
+  }
+
+  .li-footer {
+    display: inline;
+  }
+
+  .third-article,
+  .fourth-article,
+  .fifth-article,
+  .sixth-article,
+  .seventh-article,
+  .eighth-article {
+    margin: 20px 30px;
   }
 }
 
@@ -359,7 +490,7 @@ article {
 
   .footer-ul {
     margin-top: 15px;
-    left: 27%;
+    left: 23%;
   }
 
   .icons {
@@ -371,8 +502,22 @@ article {
   }
 
   .footer-flex {
+    display: flex;
     position: relative;
-    left: 27%;
+    left: 23%;
     top: 50%;
+  }
+
+  .li-footer {
+    display: inline;
+  }
+
+  .third-article,
+  .fourth-article,
+  .fifth-article,
+  .sixth-article,
+  .seventh-article,
+  .eighth-article {
+    margin: 20px 30px;
   }
 }

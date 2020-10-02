@@ -6,6 +6,10 @@
   color: white;
 }
 
+.c-grey {
+  color: #e17e65;
+}
+
 .t-ac {
   text-align: center;
 }
@@ -30,6 +34,20 @@
   padding: 16px;
 }
 
+.pos-rel {
+  position: relative;
+}
+.d-flex {
+  display: flex;
+}
+
+.o-hidden {
+  overflow: hidden;
+}
+.h-250 {
+  height: 250px;
+}
+
 .main-nav {
   height: 100px;
   width: 100%;
@@ -44,11 +62,12 @@
 .nav-p {
   font-size: 35px;
   margin-bottom: 40px;
+  padding-top: 10px;
 }
 
-.nav-li {
+/*.nav-li {
   overflow: hidden;
-}
+}*/
 
 .nav-a:hover {
   text-decoration: none;
@@ -65,7 +84,6 @@
 }
 
 .section-h2 {
-  text-align: center;
   padding-top: 90px;
 }
 
@@ -80,7 +98,6 @@
 
 input[type="search"] {
   background-color: white;
-  position: relative;
   left: 3%;
   width: 70%;
   height: 35px;
@@ -100,7 +117,6 @@ input[type="search"] {
   padding-bottom: 7px;
   padding-left: 17px;
   padding-top: 10px;
-  padding-right: 15px;
 }
 
 .section-btn-1:hover {
@@ -112,7 +128,7 @@ input[type="search"] {
 .section-btn-2 {
   height: 50px;
   width: 150px;
-  bottom: 28%;
+  margin-top: 12%;
   left: 45%;
   opacity: 0.9;
   border: none;
@@ -164,25 +180,25 @@ input[type="search"] {
 }
 
 .div-section-flex {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
 }
 
 .first-div {
   background-color: #e17e65;
-  height: 250px;
+  /*height: 250px;*/
   margin: 0;
 }
 
 .second-div {
   background-color: #98a4a5;
-  height: 250px;
+  /*  height: 250px;*/
 }
 
 .third-div {
   background-color: #509bd7;
-  height: 250px;
-  overflow: hidden;
+  /*  height: 250px;*/
+  /*  overflow: hidden;*/
 }
 
 .sunce {
@@ -190,9 +206,9 @@ input[type="search"] {
   height: 200px;
 }
 
-.btn-3 {
+/*.btn-3 {
   color: #e17e65;
-}
+}*/
 
 .btn-3:hover {
   background-color: #3f3f3f;
@@ -215,11 +231,10 @@ input[type="search"] {
 .first-footer {
   background-color: black;
   height: 280px;
-  overflow: hidden;
+  /*  overflow: hidden;*/
 }
 
 .footer-ul {
-  position: absolute;
   left: 15%;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -244,13 +259,9 @@ input[type="email"] {
   border-radius: unset;
 }
 
-.div-conc {
+/*.div-conc {
   color: #e17e65;
-}
-
-.footer-flex {
-  display: flex;
-}
+}*/
 
 .p-footer {
   font-size: 14px;
@@ -268,11 +279,11 @@ input[type="email"] {
 .second-footer {
   height: 70px;
   background-color: #1f1f1f;
+  /*  overflow: hidden;*/
 }
 
 .first-span {
   float: right;
-  justify-content: center;
 }
 
 .last-p {
@@ -287,6 +298,7 @@ input[type="email"] {
   .nav-p {
     font-size: 30px;
     text-align: center;
+    padding-top: 10px;
   }
 
   .nav-a {
@@ -294,15 +306,18 @@ input[type="email"] {
   }
 
   .div-nav-1 {
-    display: flex;
+    /* display: flex;*/
     justify-content: center;
     align-items: center;
+    margin-top: -10px;
+    margin-left: 22px;
   }
 
   .div-section-1 {
-    width: 100%;
+    width: 95%;
     height: 130px;
     left: 0;
+    margin: auto 8px;
   }
 
   .input-p {
@@ -315,15 +330,22 @@ input[type="email"] {
     left: 0;
     position: relative;
     top: 20%;
+    margin: auto 2px;
   }
 
   .section-btn-1 {
     width: 98%;
     position: absolute;
     right: 2%;
-    padding-top: 5px;
-    padding-left: 45%;
+    padding-top: 10px;
+    padding-left: 43%;
     bottom: 10%;
+    margin: auto -3px;
+  }
+
+  .section-btn-2 {
+    margin-top: 174px;
+    margin-left: -45px;
   }
 
   .left-top {
@@ -331,14 +353,7 @@ input[type="email"] {
   }
 
   .section-1 {
-    height: 420px;
-  }
-
-  .div-btn {
-    position: relative;
-    bottom: -46%;
-    width: 100px;
-    left: 19%;
+    height: 470px;
   }
 
   .sunce {
@@ -364,10 +379,11 @@ input[type="email"] {
   .footer-div-1 {
     position: absolute;
     margin-bottom: 20px;
+    padding-top: 27px;
   }
 
   .footer-flex {
-    display: flex;
+    /*    display: flex;*/
     flex-direction: column;
     align-items: flex-end;
     overflow: hidden;
@@ -378,8 +394,9 @@ input[type="email"] {
   }
 
   form {
-    padding-right: 86px;
+    padding-right: 36px;
     margin-bottom: 20px;
+    padding-top: 20px;
   }
 
   .div-contact {
@@ -445,6 +462,10 @@ input[type="email"] {
     overflow: hidden;
   }
 
+  .nav-p {
+    padding-top: 6px;
+  }
+
   .logo {
     height: 60px;
   }
@@ -459,9 +480,8 @@ input[type="email"] {
 
   .div-nav-1 {
     width: 275px;
-    position: absolute;
     margin-top: -53px;
-    left: 45%;
+    float: right;
   }
 
   .div-section-1 {
@@ -472,6 +492,7 @@ input[type="email"] {
 
   .section-btn-1 {
     margin-left: 14px;
+    padding-right: 20px;
   }
 
   .input-p {
@@ -486,8 +507,8 @@ input[type="email"] {
   }
 
   .section-btn-2 {
-    left: 34%;
-    bottom: 12%;
+    margin-top: 144px;
+    margin-left: -74px;
   }
 
   .big-div {
@@ -519,6 +540,7 @@ input[type="email"] {
   .footer-div-1 {
     position: absolute;
     margin-bottom: 20px;
+    padding-top: 25px;
   }
 
   .footer-flex {
@@ -534,6 +556,7 @@ input[type="email"] {
 
   form {
     margin-bottom: 20px;
+    padding-top: 25px;
   }
 
   .div-contact {
@@ -606,10 +629,24 @@ input[type="email"] {
 
   .section-btn-1 {
     margin-left: 0;
+    padding-right: 9px;
+  }
+
+  .section-btn-2 {
+    margin-bottom: -202px;
+    margin-left: -45px;
   }
 
   .section-btn-2 {
     bottom: 5%;
+  }
+
+  .p-color-1 {
+    margin-left: 11px;
+  }
+
+  .p-color {
+    margin-left: 11px;
   }
 }
 
@@ -627,11 +664,12 @@ input[type="email"] {
 
   .section-btn-1 {
     margin-left: 20px;
+    padding-right: 20px;
   }
 
   .section-btn-2 {
-    left: 40%;
-    bottom: 5%;
+    margin-top: 162px;
+    margin-left: -32px;
   }
 
   .p-color-1,
@@ -671,7 +709,11 @@ input[type="email"] {
     padding-bottom: 7px;
     padding-left: 17px;
     padding-top: 10px;
-    padding-right: 15px;
+    padding-right: 20px;
+  }
+
+  .section-btn-2 {
+    margin-bottom: -208px;
   }
 
   .p-color-1,
@@ -681,7 +723,7 @@ input[type="email"] {
 
   .footer-flex {
     position: relative;
-    left: 20%;
+    left: 19%;
     top: 50%;
   }
 
