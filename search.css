@@ -218,6 +218,10 @@ h1 {
   border-radius: 50%;
 }
 
+.icons {
+  margin-left: 20px;
+}
+
 .btn-5 {
   background-color: #444;
   border-radius: unset;
@@ -329,7 +333,8 @@ input[type="search"] {
   }
 
   .btn-directions {
-    margin-left: 172px;
+    margin-left: 202px;
+    width: 118px;
   }
 
   .div-form {
@@ -483,18 +488,18 @@ input[type="search"] {
   }
 
   .konjarnik {
-    width: 300px;
-    height: 400px;
-    margin: auto 4px;
+    width: auto;
+    height: 337px;
+    margin: auto 21px;
   }
 
   input[type="search"] {
-    width: 130px;
-    margin-left: 18px;
+    width: 102px;
+    margin-left: 90px;
   }
 
   .h4-2 {
-    text-align: left;
+    text-align: center;
   }
 }
 

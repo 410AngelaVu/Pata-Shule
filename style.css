@@ -618,8 +618,12 @@ input[type="email"] {
     left: 2%;
   }
 
+  .section-btn-1 {
+    padding-right: 10px;
+  }
+
   .section-btn-2 {
-    margin-bottom: -192px;
+    margin-top: 137px;
     margin-left: -45px;
   }
 
