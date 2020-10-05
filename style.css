@@ -67,6 +67,10 @@
   padding-top: 10px;
 }
 
+.a-navigacija:hover {
+  text-decoration: none;
+}
+
 .nav-a:hover {
   text-decoration: none;
   color: #3f3f3f;

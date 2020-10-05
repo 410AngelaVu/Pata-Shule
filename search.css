@@ -203,6 +203,10 @@ h1 {
   margin-top: 200px;
 }
 
+.last-p {
+  margin-right: 10px;
+}
+
 .footer-ul {
   left: 15%;
   border-top: 1px solid white;
@@ -325,7 +329,7 @@ input[type="search"] {
   }
 
   .btn-directions {
-    margin-left: 203px;
+    margin-left: 172px;
   }
 
   .div-form {
@@ -481,12 +485,12 @@ input[type="search"] {
   .konjarnik {
     width: 300px;
     height: 400px;
-    margin: auto 39px;
+    margin: auto 4px;
   }
 
   input[type="search"] {
     width: 130px;
-    margin-left: 45px;
+    margin-left: 18px;
   }
 
   .h4-2 {
@@ -607,7 +611,7 @@ input[type="search"] {
   }
 
   .konjarnik {
-    margin: auto 59px;
+    margin: auto 18px;
     height: 600px;
   }
 
@@ -730,6 +734,10 @@ input[type="search"] {
   .first-span {
     padding-top: 5px;
   }
+
+  .konjarnik {
+    margin: 20px 39px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -759,5 +767,9 @@ input[type="search"] {
 
   .konjarnik {
     margin: 20px 59px;
+  }
+
+  .konjarnik {
+    margin: 20px 48px;
   }
 }
