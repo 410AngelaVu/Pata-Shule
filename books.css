@@ -211,8 +211,8 @@ article {
 .sixth-article,
 .seventh-article,
 .eighth-article {
-    margin: 25px 32px;
-  }
+  margin: 25px 32px;
+}
 
 @media (min-width: 320px) and (max-width: 575px) {
   .nav-a {
