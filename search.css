@@ -269,7 +269,7 @@ h4 {
 
 .second-footer {
   height: 70px;
-  background-color: #1f1f1f;
+  background-color: #1f1f1f;  
 }
  
 .p-des {
@@ -308,7 +308,7 @@ input[type="search"] {
   .nav-p {
     font-size: 30px;
     text-align: center;
-  }  
+  }
 
   .nav-a {
     display: none;
@@ -322,7 +322,7 @@ input[type="search"] {
     position: absolute;
     margin-top: 73px;
     margin-left: 56px;
-  } 
+  }
 
   .btn-directions {
     margin-left: 203px;
@@ -758,6 +758,6 @@ input[type="search"] {
   }
 
   .konjarnik {
-     margin: 20px 59px;
+    margin: 20px 59px;
   }
 }
