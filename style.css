@@ -339,11 +339,12 @@ input[type="email"] {
   }
 
   .sunce {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
   }
 
   .p-color {
+    padding: 10px 10px;
     text-align: left;
     font-size: 18px;
     line-height: 20px;
@@ -352,6 +353,7 @@ input[type="email"] {
   .p-color-1 {
     font-size: 22px;
     line-height: 25px;
+    padding: 10px 10px;
   }
 
   .last-p {
@@ -434,6 +436,10 @@ input[type="email"] {
   .fa-paper-plane,
   .fa-umbrella-beach {
     margin-left: 50%;
+  }
+
+  .second-div {
+    height: 300px;
   }
 }
 
@@ -695,7 +701,7 @@ input[type="email"] {
 
   .footer-flex {
     position: relative;
-    left: 19%;
+    left: 25%;
     top: 50%;
   }
 
@@ -705,7 +711,7 @@ input[type="email"] {
 
   .footer-ul {
     margin-top: 15px;
-    left: 20%;
+    left: 25%;
   }
 
   .icons {
