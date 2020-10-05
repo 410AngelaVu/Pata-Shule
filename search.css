@@ -33,7 +33,7 @@
 }
 
 .border {
-   border: 1px solid black;
+  border: 1px solid black;
 }
 
 .h-40 {
@@ -43,8 +43,6 @@
 .w-50 {
   width: 50%;
 }
-
- 
 
 .main-nav {
   background-color: #e74c3a;
@@ -107,7 +105,6 @@ form {
 }
 
 .great {
- /* border: 1px solid black;*/
   width: 90%;
   margin-left: 60px;
   height: 500px;
@@ -122,32 +119,7 @@ form {
   margin-left: 20px;
 }
 
-/*.div-1 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 40px;
-}
-
-.div-2 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 40px;
-}
-
-.div-3 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 40px;
-}*/
-
-/*.div-4 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 40px;
-}*/
-
 .first-p {
-  /*height: 40px;*/
   padding-left: 150px;
   padding-top: 5px;
 }
@@ -160,16 +132,10 @@ form {
 }
 
 .little {
-  /*border: 1px solid black;
-*/  margin-left: -20px;
-  /*height: 40px;*/
-  /*width: 50%;
-*/}
+  margin-left: -20px;
+}
 
 .little-1 {
- /* width: 50%;*/
-  /*border: 1px solid black;*/
- /* height: 40px;*/
   margin-left: 10px;
 }
 
@@ -185,7 +151,6 @@ form {
 
 .btn-buy {
   width: 100px;
-  /*position: absolute;*/
   right: 13%;
   margin-top: 54px;
   color: white;
@@ -193,8 +158,7 @@ form {
 }
 
 .p-ul {
-  /*display: flex;
-*/  justify-content: flex-end;
+  justify-content: flex-end;
   margin-top: 104px;
   margin-right: 19px;
 }
@@ -236,7 +200,6 @@ h1 {
 }
 
 .footer-ul {
-  /*position: absolute;*/
   left: 15%;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -264,10 +227,6 @@ input[type="email"] {
 .div-conc {
   color: #e17e65;
 }
-
-/*.footer-flex {
-  display: flex;
-}*/
 
 .p-footer {
   font-size: 14px;
@@ -311,11 +270,7 @@ h4 {
 
 .first-span {
   float: right;
-}
-
-/*.last-p {
-  font-size: 12px;
-}*/
+} 
 
 .p-des {
   text-align: left;
@@ -344,11 +299,9 @@ input[type="search"] {
 }
 
 .btn-directions {
-  /*position: absolute;*/
   margin-top: 61px;
   margin-left: 247px;
   width: 120px;
-  /*font-size: 12px;*/
 }
 
 @media (min-width: 320px) and (max-width: 463px) {
@@ -502,7 +455,6 @@ input[type="email"] {
 }
 
 .p-ul {
-/*  display: none;*/
 width: 50px;
 font-size: 12px;
 margin-left: 200px;
