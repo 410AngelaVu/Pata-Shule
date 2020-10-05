@@ -88,7 +88,7 @@ h3 {
 
 .desno {
   margin-left: 50px;
-  margin-top: 170px;
+  margin-top: 110px;
 }
 
 .a-1 :hover {
@@ -97,9 +97,7 @@ h3 {
 }
 
 .second-article {
-  margin-left: 83px;
-  padding-right: 94px;
-  margin-top: 196px;
+  margin: 112px 32px;
 }
 
 .card-img-top {
@@ -199,12 +197,22 @@ article {
 }
 
 .card-body {
-  padding-top: 59px;
+  padding-top: 65px;
+  height: 540px;
 }
 
 .card {
-  margin-top: 25px;
+  margin: 25px 16px;
 }
+
+.third-article,
+.fourth-article,
+.fifth-article,
+.sixth-article,
+.seventh-article,
+.eighth-article {
+    margin: 25px 32px;
+  }
 
 @media (min-width: 320px) and (max-width: 575px) {
   .nav-a {
@@ -303,7 +311,11 @@ article {
   .sixth-article,
   .seventh-article,
   .eighth-article {
-    margin: 35px 87px;
+    margin: 35px 32px;
+  }
+
+  .card-body {
+    height: 320px;
   }
 }
 
@@ -311,6 +323,20 @@ article {
   .nav-p {
     font-size: 30px;
     text-align: center;
+  }
+
+  .second-article,
+  .third-article,
+  .fourth-article,
+  .fifth-article,
+  .sixth-article,
+  .seventh-article,
+  .eighth-article {
+    margin: 35px 48px;
+  }
+
+  .card-body {
+    height: 300px;
   }
 
   .nav-a {
@@ -422,15 +448,6 @@ article {
 
   .li-footer {
     display: inline;
-  }
-
-  .third-article,
-  .fourth-article,
-  .fifth-article,
-  .sixth-article,
-  .seventh-article,
-  .eighth-article {
-    margin: 35px 87px;
   }
 }
 
